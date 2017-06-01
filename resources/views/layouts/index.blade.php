@@ -2,6 +2,9 @@
 
 @include ('layouts.navbar')
 
+@include ('home.about')
+@include ('home.skills')
+@include ('home.portfolio')
+@include ('home.contact')
 
-  <div class="container-fluid">
 @include ('layouts.footer')
