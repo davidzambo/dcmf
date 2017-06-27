@@ -1,5 +1,5 @@
 <style>
- .skills{padding: 30px, 10px; margin: 0;background-color: #EEE;}
+ .skills{padding: 50px 10px; margin: 0;background-color: #EEE;}
 </style>
 <div class="container-fluid skills" id="skills">
   <div class="row">

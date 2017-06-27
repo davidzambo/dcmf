@@ -1,6 +1,6 @@
 <style>
   body{padding-top: 50px;}
-  .about{background-color: #465ACB;padding: 40px; color: #fff;}
+  .about{background-color: #465ACB;padding: 40px; color: #fff;padding-bottom: 70px;}
   .img-round{border-radius: 50%;}
   h1{font-family: "Bubbler One", sans-serif; padding: 30px 0;}
   p{font-size: 2rem;}

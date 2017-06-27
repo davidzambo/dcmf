@@ -15,7 +15,7 @@
 <nav class="navbar nav-dcmf navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a href="#" class="col-xs-10 col-md-12">
+      <a href="http://www.dcmf.hu/" class="col-xs-10 col-md-12">
         <img src="images/logo_dcmf.png" alt="David's Code Manufactory logo" class="navbar-left img-responsive"/>
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
           <a href="#skills" class="nav-link">skills</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">portfolio</a>
+          <a href="#portfolio" class="nav-link">portfolio</a>
         </li>
         <li class="nav-item">
           <a href="#contact" class="nav-link">contact</a>
@@ -51,15 +51,11 @@
       $(this).removeClass('animated fadeIn');
     });
 
-  $('a').on('click', function(el){
-    el.preventDefault();
-    var scrollTarget = $(this).attr('href');
-    document.querySelector(scrollTarget).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
-
-    $(this).parent().addClass('active').siblings().removeClass('active');
+  $("li>a").on('click', function(){
+    var target = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(target).offset().top
+    }, 1000);
   });
 
 
