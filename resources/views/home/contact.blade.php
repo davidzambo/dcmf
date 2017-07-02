@@ -1,5 +1,5 @@
 <style>
-  .contact {padding: 30px 10px; background-color: #FECD0D;}
+  .contact {padding: 50px 10px; background-color: #FECD0D;}
   input, textarea {display:inline-block; width: 90%; border:none; border-bottom: 1px solid #999; margin: 15px 0; font-size: 2rem; background-color: #FECD0D; resize: none;}
   input:focus, textarea:focus {border-bottom: 1px solid red;outline: none;}
   .contact-h1 {padding: 0 0 30px 0; text-align: center;}

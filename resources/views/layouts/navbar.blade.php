@@ -43,21 +43,3 @@
     </div>
   </div>
 </nav>
-<script>
-  $(document).ready(function(){
-    $('.nav-item').on('mouseenter', function(){
-      $(this).addClass('animated fadeIn');
-    }).on('mouseleave', function(){
-      $(this).removeClass('animated fadeIn');
-    });
-
-  $("li>a").on('click', function(){
-    var target = $(this).attr('href');
-    $('html, body').animate({
-      scrollTop: $(target).offset().top
-    }, 1000);
-  });
-
-
-  });
-</script>
