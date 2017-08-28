@@ -9,6 +9,7 @@
     background-color: white;
     border-bottom: 1px solid #CCC;
   }
+  .nav-dcmf img {max-height: 40px; margin-top: 5px;}
   .nav-link{color: #333!important;}
   .active a {color: white!important; background-color: #E50000!important; font-weight: 400;}
 </style>
@@ -16,7 +17,7 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a href="http://www.dcmf.hu/" class="col-xs-10 col-md-12">
-        <img src="images/logo_dcmf.png" alt="David's Code Manufactory logo" class="navbar-left img-responsive"/>
+        <img src="images/logo_dcmf.png" alt="David's Code Manufactory logo" class="navbar-left"/>
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>

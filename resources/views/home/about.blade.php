@@ -15,8 +15,8 @@
       <h1>Need a bit of code? I've got some for you!</h1>
       <p>I'm a full stack web application developer, project manager, UX/UI designer, who accidently fell in
       <span class="glyphicon glyphicon-heart"></span> with the amazing world of <strong>source codes</strong>,
-      the beautiful <strong>designs</strong> and I can't stop wondering about how marvellous can
-      <strong>database relations</strong> be.</p>
+      the beautiful <strong>designs</strong> and I can't stop wondering about how marvellous
+      <strong>database relations</strong> are.</p>
       <p><small>(Please do not tell it to my wife, because she would definitly kill me. That's my super-secret affair...)</small></p>
     </div>
   </div>
