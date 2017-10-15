@@ -1,8 +1,42 @@
 <style>
   .portfolio{padding-bottom: 50px;}
+
 </style>
 <div class="container portfolio" id="portfolio">
   <h1>Check out some of my works</h1>
+
+  <div class="col-md-4 col-xs-6">
+    <a href="freecodecamp/tic-tac-toe" target="_blank">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <img src="images/portfolio-logo/tic-tac-toe.png" alt="Tic-tac-toe game" class="img-responsive">
+        </div>
+        <div class="panel-heading text-center">Beat me,<br>if you can!</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-md-4 col-xs-6">
+    <a href="freecodecamp/pomodoro_clock" target="_blank">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <img src="images/portfolio-logo/pomodoro-clock.png" alt="Pomodoro clock application" class="img-responsive">
+        </div>
+        <div class="panel-heading text-center">Keep your eyes on<br>the right track!</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-md-4 col-xs-6">
+    <a href="freecodecamp/calculator" target="_blank">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <img src="images/portfolio-logo/calculator.png" alt="JavaScript calculator" class="img-responsive">
+        </div>
+        <div class="panel-heading text-center">Your best friends<br>in math</div>
+      </div>
+    </a>
+  </div>
 
   <div class="col-md-4 col-xs-6">
     <a href="http://www.allhy.hu" target="_blank">
@@ -10,7 +44,7 @@
         <div class="panel-body">
           <img src="images/portfolio-logo/allhy.png" alt="Allhy bt. website logo" class="img-responsive">
         </div>
-        <div class="panel-heading text-center">Small businesses also deserve nice sites.</div>
+        <div class="panel-heading text-center">Small businesses also <br>deserve nice sites.</div>
       </div>
     </a>
   </div>
