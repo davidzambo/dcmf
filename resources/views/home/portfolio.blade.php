@@ -6,6 +6,17 @@
   <h1>Check out some of my works</h1>
 
   <div class="col-md-4 col-xs-6">
+    <a href="freecodecamp/simon-game" target="_blank">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <img src="freecodecamp/simon-game/images/simon-game-thumbnail.png" alt="Simon game" class="img-responsive">
+        </div>
+        <div class="panel-heading text-center">Train<br>your brain!</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-md-4 col-xs-6">
     <a href="freecodecamp/tic-tac-toe" target="_blank">
       <div class="panel panel-default">
         <div class="panel-body">
